@@ -68,7 +68,7 @@ $(function(){
 	
 	
     $("#add-project-form").submit(function(e) {
-		e.preventDefault();
+	e.preventDefault();
         var $form = $(this);
         pj = createProject($form);
         if (!pj.type) {
